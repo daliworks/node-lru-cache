@@ -1,4 +1,7 @@
 # lru cache
+Only change from issacs/node-lru-cache
+ - call dispose() on value change only.
+
 
 A cache object that deletes the least-recently-used items.
 
